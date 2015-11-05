@@ -1,6 +1,7 @@
 /* ConsoleApplication3.cpp : Defines the entry point for the console application.
-//
-/* PlanetGen 
+This is just a part of the game that generates random attributes for a planet that will be placed in the universe.
+Needs lots of work
+PlanetGen */
 #include "stdafx.h"
 #include <stdio.h>      /* printf, NULL */
 #include <stdlib.h>     /* srand, rand */
