@@ -539,5 +539,7 @@ Welcome to my code for D.S.S on 10/29/15
 */
 //You should define each numeric value of a planet seperately so that when a new planet is generated, 
 //all of its attributes are inherited by the default #defined variable.
-//Create a check with a range to make it have to check less numbers.
+//Create a check with a range to make it have to check less numbers. Aka check if it is less than 12 then 19 then 25 and the check within those ranges to find the ATT
+
+
 
