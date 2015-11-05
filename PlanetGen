@@ -537,3 +537,4 @@ Planet Att Points
 25.Iodine
 Welcome to my code for D.S.S on 10/29/15
 */
+//You should define each numeric value of a planet seperately so that when a new planet is generated, all of its attributes are inherited by the default #defined variable.
