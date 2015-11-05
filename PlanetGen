@@ -11,6 +11,7 @@ PlanetGen */
 #include <iostream>
 using namespace std;
 Int PlanetGen()
+{
 //vars
 int PlanetAt1;
 int PlanetAt2;
