@@ -10,20 +10,21 @@ PlanetGen */
 #include <conio.h>
 #include <iostream>
 using namespace std;
-Int PlanetGen()
+
+int PlanetGen()
 {
-//vars
-int PlanetAt1;
-int PlanetAt2;
-int PlanetAt3;
-int PlanetAt4;
-int PlanetAt5;
-int PlanetAt6;
-int PlanetAt7;
-int PlanetAt8;
-int PlanetAt9;
-int PlanetAt10;
-int IsRunning;
+	//vars
+	int PlanetAt1;
+	int PlanetAt2;
+	int PlanetAt3;
+	int PlanetAt4;
+	int PlanetAt5;
+	int PlanetAt6;
+	int PlanetAt7;
+	int PlanetAt8;
+	int PlanetAt9;
+	int PlanetAt10;
+	int IsRunning;
 
 	IsRunning = 1;
 	while (IsRunning == 1) {
@@ -90,17 +91,17 @@ int IsRunning;
 		//Random ATT Ten
 		srand(time(NULL));
 		PlanetAt10 = rand() % 24 + 1;
-		while (PlanetAt1 == PlanetAt10 || PlanetAt2 == PlanetAt10 || PlanetAt3 == PlanetAt10 || PlanetAt4 == PlanetAt10 || PlanetAt5 == PlanetAt10 || PlanetAt6 == PlanetAt10 || PlanetAt7 == PlanetAt10 || PlanetAt8 == PlanetAt10 || PlanetAt9 == PlanetAt10){
+		while (PlanetAt1 == PlanetAt10 || PlanetAt2 == PlanetAt10 || PlanetAt3 == PlanetAt10 || PlanetAt4 == PlanetAt10 || PlanetAt5 == PlanetAt10 || PlanetAt6 == PlanetAt10 || PlanetAt7 == PlanetAt10 || PlanetAt8 == PlanetAt10 || PlanetAt9 == PlanetAt10) {
 			PlanetAt10 = rand() % 24 + 1;
 		}
 		cout << PlanetAt10 << "\n";
 		//PlanetElement2
-		if (PlanetAt1 == 1) 
+		if (PlanetAt1 == 1)
 		{
 			cout << "'PlanetName' has Hydrogen on it" << "\n";
 		}
 		else if (PlanetAt1 == 2)
-		{ 
+		{
 			cout << "'PlanetName' has Oxygen on it" << "\n";
 		}
 		else if (PlanetAt1 == 3)
@@ -498,13 +499,419 @@ int IsRunning;
 		{
 			cout << "'PlanetName' has iodine on it" << "\n";
 		}
+		//PlanetElement5
+		if (PlanetAt5 == 1)
+		{
+			cout << "'PlanetName' has Hydrogen on it" << "\n";
+		}
+		else if (PlanetAt5 == 2)
+		{
+			cout << "'PlanetName' has Oxygen on it" << "\n";
+		}
+		else if (PlanetAt5 == 3)
+		{
+			cout << "'PlanetName' has Iron on it" << "\n";
+		}
+		else if (PlanetAt5 == 4)
+		{
+			cout << "'PlanetName' has silicon on it" << "\n";
+		}
+		else if (PlanetAt5 == 5)
+		{
+			cout << "'PlanetName' has a stable temperature" << "\n";
+		}
+		else if (PlanetAt5 == 6)
+		{
+			cout << "'PlanetName' has carbon on it" << "\n";
+		}
+		else if (PlanetAt5 == 7)
+		{
+			cout << "'PlanetName' has helium on it" << "\n";
+		}
+		else if (PlanetAt5 == 8)
+		{
+			cout << "'PlanetName' has aluminum on it" << "\n";
+		}
+		else if (PlanetAt5 == 9)
+		{
+			cout << "'PlanetName' has zirconium on it" << "\n";
+		}
+		else if (PlanetAt5 == 10)
+		{
+			cout << "'PlanetName' has a stable magnetosphere around it" << "\n";
+		}
+		else if (PlanetAt5 == 11)
+		{
+			cout << "'PlanetName' has steel on it" << "\n";
+		}
+		else if (PlanetAt5 == 12)
+		{
+			cout << "'PlanetName' has heavy oxygen on it" << "\n";
+		}
+		else if (PlanetAt5 == 13)
+		{
+			cout << "'PlanetName' has phosphorus on it" << "\n";
+		}
+		else if (PlanetAt5 == 14)
+		{
+			cout << "'PlanetName' has scandium on it" << "\n";
+		}
+		else if (PlanetAt5 == 15)
+		{
+			cout << "'PlanetName' has terbium on it" << "\n";
+		}
+		else if (PlanetAt5 == 16)
+		{
+			cout << "'PlanetName' has gold on it" << "\n";
+		}
+		else if (PlanetAt5 == 17)
+		{
+			cout << "'PlanetName' has copper on it" << "\n";
+		}
+		else if (PlanetAt5 == 18)
+		{
+			cout << "'PlanetName' has potassium on it" << "\n";
+		}
+		else if (PlanetAt5 == 19)
+		{
+			cout << "'PlanetName' has bromide on it" << "\n";
+		}
+		else if (PlanetAt5 == 20)
+		{
+			cout << "'PlanetName' has argon on it" << "\n";
+		}
+		else if (PlanetAt5 == 21)
+		{
+			cout << "'PlanetName' has calcium on it" << "\n";
+		}
+		else if (PlanetAt5 == 22)
+		{
+			cout << "'PlanetName' has lithium on it" << "\n";
+		}
+		else if (PlanetAt5 == 23)
+		{
+			cout << "'PlanetName' has uranium on it" << "\n";
+		}
+		else if (PlanetAt5 == 24)
+		{
+			cout << "'PlanetName' has sodium on it" << "\n";
+		}
+		else if (PlanetAt5 == 25)
+		{
+			cout << "'PlanetName' has iodine on it" << "\n";
+		}
+		//PlanetElement6
+		if (PlanetAt6 == 1)
+		{
+			cout << "'PlanetName' has Hydrogen on it" << "\n";
+		}
+		else if (PlanetAt6 == 2)
+		{
+			cout << "'PlanetName' has Oxygen on it" << "\n";
+		}
+		else if (PlanetAt6 == 3)
+		{
+			cout << "'PlanetName' has Iron on it" << "\n";
+		}
+		else if (PlanetAt6 == 4)
+		{
+			cout << "'PlanetName' has silicon on it" << "\n";
+		}
+		else if (PlanetAt6 == 5)
+		{
+			cout << "'PlanetName' has a stable temperature" << "\n";
+		}
+		else if (PlanetAt6 == 6)
+		{
+			cout << "'PlanetName' has carbon on it" << "\n";
+		}
+		else if (PlanetAt6 == 7)
+		{
+			cout << "'PlanetName' has helium on it" << "\n";
+		}
+		else if (PlanetAt6 == 8)
+		{
+			cout << "'PlanetName' has aluminum on it" << "\n";
+		}
+		else if (PlanetAt6 == 9)
+		{
+			cout << "'PlanetName' has zirconium on it" << "\n";
+		}
+		else if (PlanetAt6 == 10)
+		{
+			cout << "'PlanetName' has a stable magnetosphere around it" << "\n";
+		}
+		else if (PlanetAt6 == 11)
+		{
+			cout << "'PlanetName' has steel on it" << "\n";
+		}
+		else if (PlanetAt6 == 12)
+		{
+			cout << "'PlanetName' has heavy oxygen on it" << "\n";
+		}
+		else if (PlanetAt6 == 13)
+		{
+			cout << "'PlanetName' has phosphorus on it" << "\n";
+		}
+		else if (PlanetAt6 == 14)
+		{
+			cout << "'PlanetName' has scandium on it" << "\n";
+		}
+		else if (PlanetAt6 == 15)
+		{
+			cout << "'PlanetName' has terbium on it" << "\n";
+		}
+		else if (PlanetAt6 == 16)
+		{
+			cout << "'PlanetName' has gold on it" << "\n";
+		}
+		else if (PlanetAt6 == 17)
+		{
+			cout << "'PlanetName' has copper on it" << "\n";
+		}
+		else if (PlanetAt6 == 18)
+		{
+			cout << "'PlanetName' has potassium on it" << "\n";
+		}
+		else if (PlanetAt6 == 19)
+		{
+			cout << "'PlanetName' has bromide on it" << "\n";
+		}
+		else if (PlanetAt6 == 20)
+		{
+			cout << "'PlanetName' has argon on it" << "\n";
+		}
+		else if (PlanetAt6 == 21)
+		{
+			cout << "'PlanetName' has calcium on it" << "\n";
+		}
+		else if (PlanetAt6 == 22)
+		{
+			cout << "'PlanetName' has lithium on it" << "\n";
+		}
+		else if (PlanetAt6 == 23)
+		{
+			cout << "'PlanetName' has uranium on it" << "\n";
+		}
+		else if (PlanetAt6 == 24)
+		{
+			cout << "'PlanetName' has sodium on it" << "\n";
+		}
+		else if (PlanetAt6 == 25)
+		{
+			cout << "'PlanetName' has iodine on it" << "\n";
+		}
+		//PlanetElement7
+		if (PlanetAt7 == 1)
+		{
+			cout << "'PlanetName' has Hydrogen on it" << "\n";
+		}
+		else if (PlanetAt7 == 2)
+		{
+			cout << "'PlanetName' has Oxygen on it" << "\n";
+		}
+		else if (PlanetAt7 == 3)
+		{
+			cout << "'PlanetName' has Iron on it" << "\n";
+		}
+		else if (PlanetAt7 == 4)
+		{
+			cout << "'PlanetName' has silicon on it" << "\n";
+		}
+		else if (PlanetAt7 == 5)
+		{
+			cout << "'PlanetName' has a stable temperature" << "\n";
+		}
+		else if (PlanetAt7 == 6)
+		{
+			cout << "'PlanetName' has carbon on it" << "\n";
+		}
+		else if (PlanetAt7 == 7)
+		{
+			cout << "'PlanetName' has helium on it" << "\n";
+		}
+		else if (PlanetAt7 == 8)
+		{
+			cout << "'PlanetName' has aluminum on it" << "\n";
+		}
+		else if (PlanetAt7 == 9)
+		{
+			cout << "'PlanetName' has zirconium on it" << "\n";
+		}
+		else if (PlanetAt7 == 10)
+		{
+			cout << "'PlanetName' has a stable magnetosphere around it" << "\n";
+		}
+		else if (PlanetAt7 == 11)
+		{
+			cout << "'PlanetName' has steel on it" << "\n";
+		}
+		else if (PlanetAt7 == 12)
+		{
+			cout << "'PlanetName' has heavy oxygen on it" << "\n";
+		}
+		else if (PlanetAt7 == 13)
+		{
+			cout << "'PlanetName' has phosphorus on it" << "\n";
+		}
+		else if (PlanetAt7 == 14)
+		{
+			cout << "'PlanetName' has scandium on it" << "\n";
+		}
+		else if (PlanetAt7 == 15)
+		{
+			cout << "'PlanetName' has terbium on it" << "\n";
+		}
+		else if (PlanetAt7 == 16)
+		{
+			cout << "'PlanetName' has gold on it" << "\n";
+		}
+		else if (PlanetAt7 == 17)
+		{
+			cout << "'PlanetName' has copper on it" << "\n";
+		}
+		else if (PlanetAt7 == 18)
+		{
+			cout << "'PlanetName' has potassium on it" << "\n";
+		}
+		else if (PlanetAt7 == 19)
+		{
+			cout << "'PlanetName' has bromide on it" << "\n";
+		}
+		else if (PlanetAt7 == 20)
+		{
+			cout << "'PlanetName' has argon on it" << "\n";
+		}
+		else if (PlanetAt7 == 21)
+		{
+			cout << "'PlanetName' has calcium on it" << "\n";
+		}
+		else if (PlanetAt7 == 22)
+		{
+			cout << "'PlanetName' has lithium on it" << "\n";
+		}
+		else if (PlanetAt7 == 23)
+		{
+			cout << "'PlanetName' has uranium on it" << "\n";
+		}
+		else if (PlanetAt7 == 24)
+		{
+			cout << "'PlanetName' has sodium on it" << "\n";
+		}
+		else if (PlanetAt7 == 25)
+		{
+			cout << "'PlanetName' has iodine on it" << "\n";
+		}
+		//PlanetElement8
+		if (PlanetAt8 == 1)
+		{
+			cout << "'PlanetName' has Hydrogen on it" << "\n";
+		}
+		else if (PlanetAt8 == 2)
+		{
+			cout << "'PlanetName' has Oxygen on it" << "\n";
+		}
+		else if (PlanetAt8 == 3)
+		{
+			cout << "'PlanetName' has Iron on it" << "\n";
+		}
+		else if (PlanetAt8 == 4)
+		{
+			cout << "'PlanetName' has silicon on it" << "\n";
+		}
+		else if (PlanetAt8 == 5)
+		{
+			cout << "'PlanetName' has a stable temperature" << "\n";
+		}
+		else if (PlanetAt8 == 6)
+		{
+			cout << "'PlanetName' has carbon on it" << "\n";
+		}
+		else if (PlanetAt8 == 7)
+		{
+			cout << "'PlanetName' has helium on it" << "\n";
+		}
+		else if (PlanetAt8 == 8)
+		{
+			cout << "'PlanetName' has aluminum on it" << "\n";
+		}
+		else if (PlanetAt8 == 9)
+		{
+			cout << "'PlanetName' has zirconium on it" << "\n";
+		}
+		else if (PlanetAt8 == 10)
+		{
+			cout << "'PlanetName' has a stable magnetosphere around it" << "\n";
+		}
+		else if (PlanetAt8 == 11)
+		{
+			cout << "'PlanetName' has steel on it" << "\n";
+		}
+		else if (PlanetAt8 == 12)
+		{
+			cout << "'PlanetName' has heavy oxygen on it" << "\n";
+		}
+		else if (PlanetAt8 == 13)
+		{
+			cout << "'PlanetName' has phosphorus on it" << "\n";
+		}
+		else if (PlanetAt8 == 14)
+		{
+			cout << "'PlanetName' has scandium on it" << "\n";
+		}
+		else if (PlanetAt8 == 15)
+		{
+			cout << "'PlanetName' has terbium on it" << "\n";
+		}
+		else if (PlanetAt8 == 16)
+		{
+			cout << "'PlanetName' has gold on it" << "\n";
+		}
+		else if (PlanetAt8 == 17)
+		{
+			cout << "'PlanetName' has copper on it" << "\n";
+		}
+		else if (PlanetAt8 == 18)
+		{
+			cout << "'PlanetName' has potassium on it" << "\n";
+		}
+		else if (PlanetAt8 == 19)
+		{
+			cout << "'PlanetName' has bromide on it" << "\n";
+		}
+		else if (PlanetAt8 == 20)
+		{
+			cout << "'PlanetName' has argon on it" << "\n";
+		}
+		else if (PlanetAt8 == 21)
+		{
+			cout << "'PlanetName' has calcium on it" << "\n";
+		}
+		else if (PlanetAt8 == 22)
+		{
+			cout << "'PlanetName' has lithium on it" << "\n";
+		}
+		else if (PlanetAt8 == 23)
+		{
+			cout << "'PlanetName' has uranium on it" << "\n";
+		}
+		else if (PlanetAt8 == 24)
+		{
+			cout << "'PlanetName' has sodium on it" << "\n";
+		}
+		else if (PlanetAt8 == 25)
+		{
+			cout << "'PlanetName' has iodine on it" << "\n";
+		}
 		//End gen
 		system("pause");
 		return 0;
 	}
 }
-
-PlanetGen(); 
+int main()
+{
+	PlanetGen();
+}
 
 
 /////////////////////////////////////////////////notes////////////////////////////////////////////////////////
@@ -524,7 +931,7 @@ Planet Att Points
 11.Steel(what the hell its not natural)
 12.Heavy Oxygen(umm no)
 13.Phosphorus
-14.Scandium 
+14.Scandium
 15.Terbium
 16.Gold
 17.Copper
@@ -538,9 +945,11 @@ Planet Att Points
 25.Iodine
 Welcome to my code for D.S.S on 10/29/15
 */
-//You should define each numeric value of a planet seperately so that when a new planet is generated, 
-//all of its attributes are inherited by the default #defined variable.
-//Create a check with a range to make it have to check less numbers. Aka check if it is less than 12 then 19 then 25 and the check within those ranges to find the ATT
+/*You should define each numeric value of a planet seperately so that when a new planet is generated, 
+all of its attributes are inherited by the default #defined variable.*/
+/*Create a check with a range to make it have to check less numbers. 
+Aka check if it is less than 12 then 19 then 25 and the check within those ranges to find the ATT
+*/
 
 
 
